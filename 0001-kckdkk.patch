@@ -1,0 +1,24 @@
+From 598c39b5ea927e088a4ed5c76da2bce0b45d4f13 Mon Sep 17 00:00:00 2001
+From: rameshwarNexachain <rameshwar.lalahir@nexachain.ai>
+Date: Thu, 12 Mar 2026 22:58:42 +0530
+Subject: [PATCH] kckdkk
+
+---
+ src/utils/helper.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/utils/helper.js b/src/utils/helper.js
+index 98cc03b..788dde2 100644
+--- a/src/utils/helper.js
++++ b/src/utils/helper.js
+@@ -1,6 +1,6 @@
+ import { ethers } from "ethers";
+ 
+-// utils/urlHelpers.js-Shahareyar
++// utils/urlHelpers. banti ahir
+ export const getLastPathSegment = (pathname) => {
+   if (!pathname) return "";
+   const parts = pathname.split("/").filter(Boolean);
+-- 
+2.39.5 (Apple Git-154)
+
