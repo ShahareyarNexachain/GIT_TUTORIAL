@@ -1,27 +1,5 @@
 import { ethers } from "ethers";
 
-export const maskString = (str, maskChar = "*", start = 4, end = -4) => {
-  if (!str || typeof str !== "string") return "";
-
-  const strLength = str.length;
-
-  // Normalize negative end values
-  if (end < 0) {
-    end = strLength + end;
-  }
-
-  // Ensure start and end are within bounds
-  start = Math.max(0, start);
-  end = Math.min(strLength, end);
-
-  if (end <= start) return str; // Nothing to mask
-
-  const maskedStr =
-    str.substring(0, start) + maskChar.repeat(4) + str.substring(end);
-
-  return maskedStr;
-};
-
 // utils/urlHelpers.js
 export const getLastPathSegment = (pathname) => {
   if (!pathname) return "";
