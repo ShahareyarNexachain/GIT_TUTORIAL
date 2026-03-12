@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 
-// utils/urlHelpers.js-Shahareyar
+// utils/urlHelpers. banti ahir
 export const getLastPathSegment = (pathname) => {
   if (!pathname) return "";
   const parts = pathname.split("/").filter(Boolean);
