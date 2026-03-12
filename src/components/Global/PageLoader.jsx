@@ -4,7 +4,7 @@ const PageLoader = () => {
   return (
     <>
       <div className="PageLoader">
-        <div className="whirly-loader"></div>
+        <div className="whirly-loader">sjddsjfdf</div>
       </div>
     </>
   )
